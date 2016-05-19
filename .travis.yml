@@ -2,7 +2,7 @@ language: python
 python:
   - "2.7"
 install: sudo bin/install_deps.sh
-script: bin/test
+script: bin/test_sinbad.sh
 branches:
   only:
     - master
