@@ -1,4 +1,4 @@
-#!/bin/basha -x
+#!/bin/bash -x
 
 # run sinbad against a example grammar
 
