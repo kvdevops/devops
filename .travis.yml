@@ -1,0 +1,8 @@
+language: python
+python:
+  - "2.7"
+install: bin/install_deps.sh
+script: bin/test
+branches:
+  only:
+    - master
