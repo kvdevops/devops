@@ -9,8 +9,10 @@ tar xf accent.tar
 cd accent/accent
 ./build
 
+echo $?
+
 export ACCENT_DIR=${HOME}/accent
 echo $ACCENT_DIR
 
-git clone git@github.com:nvasudevan/sinbad.git ~/sinbad
+git clone https://github.com/nvasudevan/sinbad.git ~/sinbad
 python ~/sinbad/src/sinbad -b dynamic1 -d 10 amb2.acc general.lex
