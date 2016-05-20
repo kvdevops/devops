@@ -2,9 +2,6 @@
 
 # run sinbad against a example grammar
 
-echo "-- $0 --"
-env
-
 export ACCENT_DIR=${HOME}/accent
 echo "accent dir: $ACCENT_DIR"
 
