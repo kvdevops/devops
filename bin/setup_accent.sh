@@ -9,5 +9,10 @@ tar xf ~/accent.tar -C ~/
 wget https://raw.githubusercontent.com/nvasudevan/experiment/master/patches/entire.c.patch -O ~/entire.c.patch
 patch -b -p0 ~/accent/entire/entire.c < ~/entire.c.patch
 
+
 export ACCENT_DIR=${HOME}/accent
-echo $ACCENT_DIR
+echo "accent dir: $ACCENT_DIR"
+
+env
+echo "---"
+
